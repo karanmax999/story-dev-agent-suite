@@ -1,0 +1,26 @@
+{
+  "name": "story-dev-agent-suite",
+  "version": "0.0.1",
+  "description": "One command to scaffold Story-ready apps, plus a reference GenAI IP app that uses ABV.dev",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm -r dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test"
+  },
+  "keywords": [
+    "story-protocol",
+    "abv.dev",
+    "genai",
+    "ip-registration",
+    "scaffolding"
+  ],
+  "author": "Antigravity",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "prettier": "^3.2.5",
+    "eslint": "^8.56.0"
+  }
+}

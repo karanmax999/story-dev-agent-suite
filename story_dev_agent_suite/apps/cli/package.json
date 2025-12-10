@@ -1,0 +1,26 @@
+{
+    "name": "story-dev-agent-cli",
+    "version": "0.1.0",
+    "bin": {
+        "story-dev-agent": "./dist/index.js"
+    },
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsc -w",
+        "start": "node dist/index.js"
+    },
+    "dependencies": {
+        "commander": "^11.1.0",
+        "inquirer": "^9.2.14",
+        "fs-extra": "^11.2.0",
+        "chalk": "^5.3.0",
+        "ora": "^8.0.1",
+        "execa": "^8.0.1"
+    },
+    "devDependencies": {
+        "typescript": "^5.3.3",
+        "@types/fs-extra": "^11.0.4",
+        "@types/inquirer": "^9.0.7",
+        "@types/node": "^20.11.19"
+    }
+}
